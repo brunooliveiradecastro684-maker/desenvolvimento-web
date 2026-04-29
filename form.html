@@ -17,14 +17,18 @@
     <div class="form">
         <h2>Cadastrar</h2>
         <form id="meuFormulario">
-        <label for="Titulo">Nome SCP</label>
+        <label for="Titulo">Codinome do SCP</label>
         <input type="text" id="titulo" placeholder="Titulo" required><br>
-        <label for="imagem"> imagem do SCP</label>
-        <input type="url" id="image" placeholder="URL da imagem" required><br>
+        <label for="Numero">Número de objeto</label>
+        <input type="text" id="numero" placeholder="Numero como: SCP-xxxx" required ><br>
+        <label for="Classe">Classe de SCP</label>
+        <input type="text" id="classe" placeholder="Classe" required ><br>   
+        <label for="imagem"> Imagem </label>
+        <input type="url" id="image" placeholder="Insira a URL da imagem" required ><br>
         <label for="Paragrafo">Escreva sobre o SCP</label>
-        <textarea id="Paragrafo" placeholder="Diga"></textarea><br>
+        <textarea id="Paragrafo" placeholder="Descrição, procedimento de contenção e etc..." required ></textarea><br>
+        <button onclick="adcionarvalores()">Cor de fracassada patética</button>
     </form>
-    <button onClick="alterarFundo()">Adicionar</button>
     </div>  
 </body>
 </html>
